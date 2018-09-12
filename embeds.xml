@@ -7,7 +7,7 @@
 	<Include file="libs\AceGUI-3.0\AceGUI-3.0.xml"/>
 	<Include file="libs\AceLocale-3.0\AceLocale-3.0.xml"/>
 	<Include file="libs\AceEvent-3.0\AceEvent-3.0.xml"/>
-	<Include file="libs\LibDataBroker-1.1\LibDataBroker-1.1.lua"/>
+	<Include file="hardembeds\LibDataBroker-1.1\LibDataBroker-1.1.lua"/>
 	<!--<Include file="libs\LibDialog-1.0\lib.xml"/>-->
 	<!--<Script file="libs\LibCrayon-3.0\LibCrayon-3.0.lua"/>-->
 </Ui>
