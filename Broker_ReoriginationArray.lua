@@ -48,6 +48,8 @@ addon.obj = ldb:NewDataObject(MODNAME, {
 		if not tooltip or not tooltip.AddLine then return end
 		tooltip:AddLine(MODNAME.." "..GetAddOnMetadata(MODNAME, "Version"))
 
+		addon:UpdateInfo()
+
 		tooltip:AddDoubleLine(L["Killed this week"], string.format("%d / 3", addon.info.weekly))
 		tooltip:AddDoubleLine(L["Bufflevel"], string.format("%d / 10", addon.info.perm))
 	end,
